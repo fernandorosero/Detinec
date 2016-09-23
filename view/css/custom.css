@@ -1,0 +1,21 @@
+/* 
+    Created on : 21-sep-2016, 3:23:24
+    Author     : FERNANDO
+*/
+
+#logoDetinec{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    
+}
+/*******************INICIO FOOTER****************/
+footer{
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: activecaption;
+}
+/*******************FIN FOOTER****************/
