@@ -2,20 +2,92 @@
     Created on : 21-sep-2016, 3:23:24
     Author     : FERNANDO
 */
-
-#logoDetinec{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
 body{
+    width:900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/************** INICIO HEADER*******************/
+header div{
+}
+header div img{
+    margin-top: 15px;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+header div p{
+    float: right;
+    color: #1bb7aa;
+    margin-top: 50px;
+    font-size: 20px;
     
 }
+/************** FIN HEADER*******************/
+
+/************** INICIO NAV *******************/
+nav div ul{
+    padding: 10px 0px;
+    border-bottom: 1px solid #778;
+    background-color: #46a9a0;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 10px;
+}
+nav div ul li{
+   list-style: none;
+   display: inline; 
+   margin-left: 5px;
+}
+nav div ul li a{
+    padding: 12px 1em;
+    text-decoration: none;
+    color: #f7f4f4;
+}
+nav div ul li a:hover{
+    color: #ffffff;
+    background-color: #149188;
+    border-radius: 5px 5px 0px 0px;
+}
+/************** FIN NAV *******************/
+
+/************ INICIO SECTION ********************/
+section{
+    border: 1px solid #c5e8e5;
+    padding: 15px 15px 25px;
+    border-radius: 6px;
+}
+section div img{
+    width: 100%;
+}
+/************ INICIO SECTION ********************/
+
 /*******************INICIO FOOTER****************/
 footer{
-    width: 300px;
-    height: 100px;
-    color: white;
-    background-color: activecaption;
+    margin-top: -4px;
+}
+footer p{    
+    float: left;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 4px;
+}
+footer ul{
+    float: right;
+}
+footer ul li{
+    float: left;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #1bb7aa;
+    padding-right: 8px;
+    
+    font-size: 13px;
+}
+footer div ul li span{
+    margin-right: 5px;
 }
 /*******************FIN FOOTER****************/

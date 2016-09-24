@@ -7,11 +7,35 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Detinec</title>
+        <?php 
+            include_once './view/php/initial/init.php';
+        ?>
+        
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <header>
+            <?php
+                include_once './view/php/body/header.php';
+            ?>
+        </header>
+        
+        <nav>
+            <?php 
+                include_once './view/php/body/nav.php';
+            ?>
+        </nav>
+        
+        <section>
+            <?php
+                include_once './view/php/body/section.php';
+            ?>
+        </section>
+        
+        <footer>
+            <?php
+                include_once './view/php/body/footer.php';
+            ?>
+        </footer>
     </body>
 </html>

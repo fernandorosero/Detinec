@@ -1,7 +1,17 @@
 <?php
 
 ?>
-footer foo
-    <footer>
-        Departamento Tecnol&oacute;gico Industrial 2016
-    </footer>
+    <div>
+        <p>
+            &copy;Detinec 2016
+        </p>
+        <ul>
+            <li><a href="#">Tarifas</a><span>|</span></li>
+            
+            <li><a href="#">Aviso legal</a><span>|</span></li>
+            
+            <li><a href="#">Seguridad</a><span>|</span></li>
+            
+            <li><a href="#">Pol&iacute;tica de cookies</a></li>
+        </ul>
+    </div>
