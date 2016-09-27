@@ -152,6 +152,7 @@ footer div ul li span{
     cursor: pointer;
     border: 0;
     font-weight: bold;
+    height: 37px;
 }
 #formulario form button:hover{
     background: #92ba79;
@@ -174,3 +175,41 @@ footer div ul li span{
 }
 
 /*************** FIN LOGGIN **********/
+
+
+/************* INICIO CONTACTO *******/
+#contacto{
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+#contacto img{
+    width: 70px;
+    margin-left: 15px;
+}
+#contacto h3{
+    display: inline-block;
+    margin-left: 20px;
+    color:#cecece;
+}
+#contacto #retorno {
+    margin-top: 15px;
+}
+#contacto div a{
+    text-decoration: none;
+    color: #1bb7aa;
+}
+#contacto #formulario{
+    width: 330px;
+}
+#contacto #formulario textArea{
+    border: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 4px;
+    height: 90px;
+    width: 100%;
+}
+
+/************* FIN CONTACTO *******/
