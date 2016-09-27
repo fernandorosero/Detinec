@@ -91,3 +91,58 @@ footer div ul li span{
     margin-right: 5px;
 }
 /*******************FIN FOOTER****************/
+
+/*************** INICIO LOGGIN **********/
+#loggin{
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#formulario{
+    border: 1px solid #c5e8e5;
+    padding: 0px 15px 15px;
+    border-radius: 6px;
+    width: 224px;
+    margin: 0 auto;
+}
+#formulario h3{
+    margin-left: 10px;
+}
+#formulario form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#formulario form label, button{
+    display: block;
+    margin-top: 16px;
+}
+
+#formulario form button{
+    background: #85b285;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    padding: 6px;
+    cursor: pointer;
+}
+#formulario form button:hover{
+    background: #92ba79;
+}
+#formulario form input{
+    border: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 4px;
+    height: 25px;
+    width: 100%;
+}
+#loggin div {
+    margin-top: 20px;
+}
+#loggin div a{
+    text-decoration: none;
+    color: #00A9E8;
+}
+
+/*************** FIN LOGGIN **********/

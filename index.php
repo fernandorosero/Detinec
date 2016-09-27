@@ -9,7 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>Detinec</title>
         <?php 
-            include_once './view/php/initial/init.php';
+            include_once './init.php';
         ?>
         
     </head>
