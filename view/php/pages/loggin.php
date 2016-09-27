@@ -14,6 +14,6 @@
         </form>
     </div>
     <div>
-        &NestedLessLess;<a href="http://localhost/Detinec">Volver</a>
+        <a href="http://localhost/Detinec">&NestedLessLess; Volver</a>
     </div>
 </div>
