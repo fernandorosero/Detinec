@@ -35,6 +35,7 @@ header div a{
     padding-left: 12px;
     padding-right: 12px;
     text-decoration: none;
+    font-size: 14px;
 }
 header div a:hover{
  background: #30a0ca;
@@ -128,6 +129,7 @@ footer div ul li span{
     display: inline-block;
     margin-left: 20px;
     color:#cecece;
+    margin-bottom: 4px
 }
 #login #formulario h3{
     margin-left: 10px;
@@ -203,6 +205,9 @@ footer div ul li span{
 #contacto #formulario{
     width: 330px;
 }
+#contacto #formulario h3{
+    color: black;
+}
 #contacto #formulario textArea{
     border: 1px solid #d5d5d5;
     border-top: 2px solid #d5d5d5;
@@ -210,6 +215,7 @@ footer div ul li span{
     padding-left: 4px;
     height: 90px;
     width: 100%;
+    resize: none;
 }
 
 /************* FIN CONTACTO *******/

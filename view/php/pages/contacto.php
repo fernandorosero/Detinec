@@ -1,17 +1,6 @@
 <?php
     include_once '../initial/init.php';
 ?>
-<header>
-    <?php
-        include_once '../body/header.php';
-    ?>
-</header>
-
-<nav>
-    <?php 
-        include_once '../body/nav.php';
-    ?>
-</nav>
 <div id="contacto">
     <img src="../../img/logo_xl.png"/>
     <h3>Detinec</h3>
@@ -33,8 +22,3 @@
         <a href="http://localhost/Detinec">&NestedLessLess; Volver</a>
     </div>
 </div>
-<footer>
-    <?php
-        include_once '../body/footer.php';
-    ?>
-</footer>
