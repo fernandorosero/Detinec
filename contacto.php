@@ -16,15 +16,15 @@
 <div id="contacto">
     <div id="formulario">
         <h3>Formulario de contacto</h3>
-        <form>
+        <form action="">
             <label>Nombre:</label>
-            <input type="text" maxlength="24"/>
+            <input type="text" maxlength="24" required/>
             <label>Tel&eacute;fono:</label>
-            <input type="text" maxlength="24"/>
+            <input type="number" maxlength="24" required/>
             <label>Correo electr&oacute;nico:</label>
-            <input type="password" maxlength="24"/>
+            <input type="email" maxlength="24" required/>
             <label>Comentario:</label>
-            <textarea></textarea>
+            <textarea required></textarea>
             <button type="submit">Enviar</button>
         </form>
     </div>

@@ -27,10 +27,10 @@ function setCookie(c_name,value,exdays){
     document.cookie=c_name + "=" + c_value;
 }
  
-if(getCookie('detinec2')!="1"){
+if(getCookie('detinec3')!="1"){
     document.getElementById("barraaceptacion").style.display="block";
 }
 function PonerCookie(){
-    setCookie('detinec2','1',365);
+    setCookie('detinec3','1',365);
     document.getElementById("barraaceptacion").style.display="none";
 }
