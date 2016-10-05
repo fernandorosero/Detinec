@@ -1,13 +1,14 @@
 <?php
 
 ?>
+<div id="barraaceptacion">
+    <div class="inner">
+        Utilizamos cookies propias y de terceros para mejorar nuestros servicios. 
+        Para obtener m&aacute;s informaci&oacute;n, o bien conocer c&oacute;mo cambiar la configuraci&oacute;n, consulte 
+        nuestra pol&iacute;tica de cookies. Si contin&uacute;a navegando consideramos que acepta su uso.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
+        <a href="http://localhost/Detinec/index.php" target="_blank" class="info">Más información</a>
+    </div>
+</div>
 
-<p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso. 
-Para obtener más información, o bien conocer cómo cambiar la configuración, consulte nuestra política de cookies.</p>
-<button>Aceptar</button>
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 

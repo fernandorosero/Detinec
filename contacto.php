@@ -1,8 +1,8 @@
 <?php
-    include_once '../initial/init.php';
+    include_once 'init.php';
 ?>
 <div id="contacto">
-    <img src="../../img/logo_xl.png"/>
+    <img src="view/img/logo_xl.png"/>
     <h3>Detinec</h3>
     <div id="formulario">
         <h3>Formulario de contacto</h3>
@@ -22,3 +22,8 @@
         <a href="http://localhost/Detinec">&NestedLessLess; Volver</a>
     </div>
 </div>
+<footer>
+    <?php
+        include_once './view/php/body/footer.php';
+    ?>
+</footer>

@@ -14,4 +14,9 @@
             
             <li><a href="#">Pol&iacute;tica de cookies</a></li>
         </ul>
+        <?php
+            include_once './utils/CookieDetinecPolitica.php';
+        ?>
+        <!-- JavaScript -->
+        <script type="text/javascript" src="//localhost/Detinec/view/js/util.js"></script> 
     </div>

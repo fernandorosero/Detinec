@@ -5,6 +5,7 @@
 
 <!-- Estilos -->
 <link rel="stylesheet" type="text/css" href="view/css/custom.css"/>
+
     
 <!-- Constante y Utilidades -->
 <?php
