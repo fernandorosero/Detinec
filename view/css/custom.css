@@ -112,7 +112,7 @@ footer div ul li span{
 #login{
     width: 230px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 65px;
 }
 #formulario{
     border: 1px solid #c5e8e5;
@@ -221,7 +221,6 @@ footer div ul li span{
     width: 100%;
     resize: none;
 }
-
 /************* FIN CONTACTO *******/
 
 /*************** INICIO COOKIES *********/
@@ -239,7 +238,6 @@ footer div ul li span{
     color:#fff;
     z-index:99999;
 }
- 
 .inner {
     width:100%;
     position:absolute;
@@ -248,7 +246,6 @@ footer div ul li span{
     font-size:12px;
     top:30%;
 }
- 
 .inner a.ok {
     padding:4px;
     color:#00ff2e;
@@ -261,3 +258,21 @@ footer div ul li span{
     color:#faff00;
 }
 /*************** FIN COOKIES *********/
+
+/*************** INICIO POLITICA COOKIES **********/
+#politicaCookiesDetinec{
+ border: 1px solid #c5e8e5;
+    padding: 0px 15px 15px;
+    border-radius: 6px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 14px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);   
+}
+#politicaCookiesDetinec div a{
+    text-decoration: none;
+    color: #1bb7aa;
+}
+/*************** FIN POLITICA COOKIES **********/

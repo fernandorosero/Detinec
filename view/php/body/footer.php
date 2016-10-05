@@ -12,7 +12,7 @@
             
             <li><a href="#">Seguridad</a><span>|</span></li>
             
-            <li><a href="#">Pol&iacute;tica de cookies</a></li>
+            <li><a href="politicacookiesdetinec.php">Pol&iacute;tica de cookies</a></li>
         </ul>
         <?php
             include_once './utils/CookieDetinecPolitica.php';

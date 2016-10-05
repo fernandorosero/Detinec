@@ -7,7 +7,7 @@
         Para obtener m&aacute;s informaci&oacute;n, o bien conocer c&oacute;mo cambiar la configuraci&oacute;n, consulte 
         nuestra pol&iacute;tica de cookies. Si contin&uacute;a navegando consideramos que acepta su uso.
         <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
-        <a href="http://localhost/Detinec/index.php" target="_blank" class="info">M&aacute;s informaci&oacute;n</a>
+        <a href="http://localhost/Detinec/politicacookiesdetinec.php" target="_blank" class="info">M&aacute;s informaci&oacute;n</a>
     </div>
 </div>
 
