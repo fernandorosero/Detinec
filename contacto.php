@@ -2,19 +2,18 @@
     include_once 'init.php';
 ?>
 <header>
-            <?php
-                include_once './view/php/body/header.php';
-            ?>
-        </header>
+    <?php
+        include_once './view/php/body/header.php';
+    ?>
+</header>
         
 <nav>
-            <?php 
-                include_once './view/php/body/nav.php';
-            ?>
-        </nav>
-<div id="contacto"><!--
-    <img src="view/img/logo_xl.png"/>
-    <h3>Detinec</h3> -->
+    <?php 
+        include_once './view/php/body/nav.php';
+    ?>
+</nav>
+
+<div id="contacto">
     <div id="formulario">
         <h3>Formulario de contacto</h3>
         <form>
@@ -28,9 +27,6 @@
             <textarea></textarea>
             <button type="submit">Enviar</button>
         </form>
-    </div>
-    <div id="retorno">
-        <a href="http://localhost/Detinec">&NestedLessLess; Volver</a>
     </div>
 </div>
 <footer>
