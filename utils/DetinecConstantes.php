@@ -6,6 +6,7 @@
             . "(id_contacto integer unsigned NOT NULL auto_increment, "
             . "nombre varchar(30) NOT NULL, "
             . "telefono int(11) NOT NULL, "
+            . "comentario varchar(120) NOT NULL, "
             . "PRIMARY KEY (id_contacto));";
 
     /*Local*/
