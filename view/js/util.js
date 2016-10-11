@@ -34,3 +34,25 @@ function PonerCookie(){
     setCookie('detinec3','1',365);
     document.getElementById("barraaceptacion").style.display="none";
 }
+/******* INICIO CRUD **************/
+function crearContacto(nombre, telefono, email, comentario){
+        var parametros = {
+                "nombre" : nombre,
+                "telefono" : telefono,
+                "email" : email,
+                "comentario" : comentario
+        };
+        $.ajax({
+                data:  parametros,
+                url:   'controller/Detinec_CRUD_Create_Contacto.php',
+                type:  'post',
+                beforeSend: function () {
+                        $("#resultado").html("Procesando, espere por favor...");
+                },
+                success:  function (response) {
+                        $("#resultado").html(response);
+                }
+        });
+}
+
+/******* FIN CRUD **************/

@@ -25,26 +25,29 @@ function realizaProceso(valorCaja1, valorCaja2){
         });
 }
 </script>
- 
+
 </head>
  
 <body>
  
 Introduce valor 1
  
-<input type="text" name="caja_texto" id="valor1" value="0"/> 
- 
- 
+<input type="text" name="caja_texto" id="valor1" value="20"/> 
+<br/> 
+ <br/> 
 Introduce valor 2
  
-<input type="text" name="caja_texto" id="valor2" value="0"/>
- 
+<input type="text" name="caja_texto" id="valor2" value="30"/>
+ <br/> <br/> 
 Realiza suma
  
-<input type="button" href="javascript:;" onclick="realizaProceso($('#valor1').val(), $('#valor2').val());return false;" value="Calcula"/>
+<input type="button" 
+       href="javascript:;" 
+       onclick="realizaProceso($('#valor1').val(), $('#valor2').val());return false;" 
+       value="Calcula"/>
  
 <br/>
- 
+ <br/> <br/> 
 Resultado: <span id="resultado">0</span>
  
 </body>

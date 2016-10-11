@@ -5,7 +5,6 @@
     $conexion_crearModelo = mysql_connect($url, $user, $password);
     if(mysql_query($slq, $conexion_crearModelo)){
         echo 'La base de datos '.$db_name.' se cre&oacute; correctamente. ';
-        
     }
     else{
         echo 'Error al crear la base de datos: '. mysql_error().". ";
