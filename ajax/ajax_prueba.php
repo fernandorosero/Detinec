@@ -4,7 +4,7 @@
  
 <title>Ejemplo sencillo de AJAX</title>
  
-<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="../view/js/jquery-3.1.1.js"></script>
  
 <script>
 function realizaProceso(valorCaja1, valorCaja2){
