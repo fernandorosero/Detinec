@@ -4,14 +4,20 @@
     $email = $_POST['email'];
     $comentario = $_POST['comentario'];
     include_once '../model/AbreConexionBBDD.php';
-    $resultado_deti = $nombre.' '.$telefono.' '.$email.' '.$comentario;
+    $resultado_deti = $nombre;
 
     $query_create = "insert into contactos(nombre, telefono, email, comentario)"
             . " values('$nombre', '$telefono', '$email', '$comentario');";
     
     $query = mysql_query($query_create, $conexion_db)
-            or die("NO SE HA PODIDO CREAR");
+            or die("400");
     include_once '../model/CierraConexionBBDD.php';
-    echo $resultado_deti;
+    
+    if($query){
+        echo "Gracias ".$resultado_deti." pronto nos pondremos en contacto con usted.";
+    }
+    else{
+        echo "400";
+    }
 ?>
 

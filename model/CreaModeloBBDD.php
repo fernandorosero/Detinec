@@ -15,6 +15,6 @@
         echo 'La tabla contactos se ha creado!. ';
     }else
     {
-        echo 'No se ha creado la tabla contactos. ';
+        echo 'NO SE HA PODIDO CREAR LA TABLA. ';
     }
 ?>

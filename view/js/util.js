@@ -50,7 +50,18 @@ function crearContacto(nombre, telefono, email, comentario){
                         $("#resultado").html("Procesando, espere por favor...");
                 },
                 success:  function (response) {
+                    if(response == 400){    
+                        $("#resultado").html("No se ha podido enviar el comentario!");
+                    }else
+                    {
                         $("#resultado").html(response);
+                        $('#nombre').val('');
+                        $('#telefono').val('');
+                        $('#email').val('');
+                        $('#comentario').val('');
+                        
+                    }
+                
                 }
         });
 }
