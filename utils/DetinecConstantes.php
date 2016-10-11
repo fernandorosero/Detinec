@@ -7,7 +7,7 @@
             . "nombre varchar(30) NOT NULL, "
             . "telefono int(11) NOT NULL, "
             . "email varchar(50) NOT NULL, "
-            . "comentario varchar(120) NOT NULL, "
+            . "comentario varchar(200) NOT NULL, "
             . "PRIMARY KEY (id_contacto));";
     
     /*Local*/
