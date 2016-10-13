@@ -12,6 +12,6 @@
     $conexion_db = mysql_connect("$hostdb","$usuariodb","$clavedb")
     or die ("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE");
     $db = mysql_select_db("$basededatos", $conexion_db)
-    or die ("La Base de Datos <b>$basededatos</b> NO EXISTE");
+    or die ("La Base de Datos $basededatos NO EXISTE");
 ?>
 

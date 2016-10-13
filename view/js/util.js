@@ -52,6 +52,7 @@ function crearContacto(nombre, telefono, email, comentario){
                 success:  function (response) {
                     if(response == 400){    
                         $("#resultado").html("No se ha podido enviar el comentario!");
+                        $(".resultado").removeClass("none").addClass("resultadoKO");
                     }else
                     {
                         $("#resultado").html(response);
@@ -59,8 +60,8 @@ function crearContacto(nombre, telefono, email, comentario){
                         $('#telefono').val('');
                         $('#email').val('');
                         $('#comentario').val('');
+                        $(".resultado").removeClass("none").addClass("resultadoOK");
                     }
-                    $(".resultado").removeClass("none");
                     $("#formulario").addClass("none");
                 }
         });
