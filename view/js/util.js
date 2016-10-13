@@ -59,9 +59,9 @@ function crearContacto(nombre, telefono, email, comentario){
                         $('#telefono').val('');
                         $('#email').val('');
                         $('#comentario').val('');
-                        
                     }
-                
+                    $(".resultado").removeClass("none");
+                    $("#formulario").addClass("none");
                 }
         });
 }

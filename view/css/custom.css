@@ -221,6 +221,19 @@ footer div ul li span{
     width: 100%;
     resize: none;
 }
+.none{
+    display: none;
+}
+.resultado{
+    margin-top: 25px;
+    border: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
+    border-radius: 3px;
+    padding-left: 4px;
+    height: 90px;
+    width: 100%;
+    resize: none;
+}
 /************* FIN CONTACTO *******/
 
 /*************** INICIO COOKIES *********/

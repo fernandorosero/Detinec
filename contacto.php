@@ -28,7 +28,9 @@
             <button type="submit">Enviar</button>
         </form>
     </div>
-    <span id="resultado">0</span>
+    <div class="resultado none">
+        <span id="resultado"></span>
+    </div>
 </div>
 <footer>
     <?php
