@@ -14,7 +14,7 @@
     include_once '../model/CierraConexionBBDD.php';
     
     if($query){
-        echo "Gracias ".$resultado_deti." pronto nos pondremos en contacto con usted.";
+        echo "<p>Gracias ".$resultado_deti." pronto nos pondremos en contacto con usted.</p>";
     }
     else{
         echo "400";

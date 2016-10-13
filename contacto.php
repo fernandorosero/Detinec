@@ -30,6 +30,7 @@
     </div>
     <div class="resultado none">
         <span id="resultado"></span>
+        <img src="view/img/cerrarAlerta.png"/>
     </div>
 </div>
 <footer>
