@@ -53,6 +53,7 @@ function crearContacto(nombre, telefono, email, comentario){
                     if(response == 400){    
                         $("#resultado").html("No se ha podido enviar el comentario!");
                         $(".resultado").removeClass("none").addClass("resultadoKO");
+                        $("#imgResultado").attr("src","view/img/iconoAlertaWarning.png");
                     }else
                     {
                         $("#resultado").html(response);
@@ -61,6 +62,7 @@ function crearContacto(nombre, telefono, email, comentario){
                         $('#email').val('');
                         $('#comentario').val('');
                         $(".resultado").removeClass("none").addClass("resultadoOK");
+                        $("#imgResultado").attr("src","view/img/iconoAlertaOk.png");
                     }
                     $("#formulario").addClass("none");
                 }
@@ -68,3 +70,45 @@ function crearContacto(nombre, telefono, email, comentario){
 }
 
 /******* FIN CRUD **************/
+
+/******** INICIO FORMULARIO CONTACTO ************/
+
+function ValidarCampos(nombre, telefono, email, comentario){
+    nombre = document.getElementById(nombre);
+    telefono = document.getElementById(telefono);
+    email = document.getElementById(email);
+    comentario = document.getElementById(comentario);
+    if(nombre.value == ""){
+        alert("El campo Nombre est\u00E1 vac\u00EDo.");
+        nombre.focus();
+        return false;
+    } /*****     \u00FA        */
+    else{
+        if (telefono.value == ""){
+            alert ("El campo tel\u00E9fono est\u00E1 vac\u00EDo.");
+            telefono.focus();
+            return false;
+        }
+        else{
+            if(email.value == ""){
+                alert("El campo Correo electr\u00F3nico est\u00E1 vac\u00EDo.");
+                email.focus();
+                return false;
+            }
+            else{
+                if(comentario.value == ""){
+                    alert ("El campo comentario est\u00E1 vac\u00EDo.")
+                    comentario.focus();
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        }
+    }
+    
+    
+    
+}
+/******** FIN FORMULARIO CONTACTO ************/
