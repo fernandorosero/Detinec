@@ -1,5 +1,10 @@
 <?php
     include_once 'init.php';
+    include_once './controller/InicioSessionAdministrador.php';
+    if (isset($_SESSION['usuario'])){
+        echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
+        echo '<p><a href="controller/FinSessionAdministrador.php">Cerrar sesion</a></p>';
+    }
 ?>
 
 <div id="login"><!--
@@ -7,9 +12,9 @@
     <h3>Detinec</h3> -->
     <div id="formulario">
         <h3>Acceso</h3>
-        <form action="" onsubmit="return validarCamposLogin('usuario', 'password')">
+        <form action="index.php" onsubmit="return validarCamposLogin('usuario', 'password')" method="POST">
             <label>Usuario:</label>
-            <input type="text" id="usuario" maxlength="24"/>
+            <input type="text" id="usuario" name="usuario" maxlength="24"/>
             <label>Contrase&ntilde;a:</label>
             <input type="password" id="password" maxlength="24"/>
             <button type="submit">Entrar</button>
