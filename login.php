@@ -1,10 +1,10 @@
 <?php
-    include_once '../initial/init.php';
+    include_once 'init.php';
 ?>
 
-<div id="login">
-    <img src="../../img/logo_xl.png"/>
-    <h3>Detinec</h3>
+<div id="login"><!--
+    <img src="view/img/logo_xl.png"/>
+    <h3>Detinec</h3> -->
     <div id="formulario">
         <h3>Acceso</h3>
         <form>
