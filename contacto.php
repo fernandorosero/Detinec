@@ -25,7 +25,7 @@
             <label>Correo electr&oacute;nico:</label>
             <input type="email" maxlength="50" id="email" />
             <label>Comentario:</label>
-            <textarea id="comentario"></textarea>
+            <textarea id="comentario" maxlength="200"></textarea>
             <button type="submit">Enviar</button>
         </form>
     </div>
