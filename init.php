@@ -6,7 +6,9 @@
 <!-- Estilos -->
 <link rel="stylesheet" type="text/css" href="view/css/custom.css"/>
 
-    
+<!-- JavaScript -->
+<script type="text/javascript" src="//localhost/Detinec/view/js/util.js"></script> 
+<script type="text/javascript" src="//localhost/Detinec/view/js/jquery-3.1.1.js"></script>
 <!-- Constante y Utilidades -->
 <?php
     include_once './utils/DetinecConstantes.php';

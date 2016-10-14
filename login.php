@@ -7,11 +7,11 @@
     <h3>Detinec</h3> -->
     <div id="formulario">
         <h3>Acceso</h3>
-        <form>
+        <form action="" onsubmit="return validarCamposLogin('usuario', 'password')">
             <label>Usuario:</label>
-            <input type="text" maxlength="24"/>
+            <input type="text" id="usuario" maxlength="24"/>
             <label>Contrase&ntilde;a:</label>
-            <input type="password" maxlength="24"/>
+            <input type="password" id="password" maxlength="24"/>
             <button type="submit">Entrar</button>
         </form>
     </div>

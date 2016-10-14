@@ -73,7 +73,7 @@ function crearContacto(nombre, telefono, email, comentario){
 
 /******** INICIO FORMULARIO CONTACTO ************/
 
-function ValidarCampos(nombre, telefono, email, comentario){
+function validarCampos(nombre, telefono, email, comentario){
     nombre = document.getElementById(nombre);
     telefono = document.getElementById(telefono);
     email = document.getElementById(email);
@@ -112,3 +112,25 @@ function ValidarCampos(nombre, telefono, email, comentario){
     
 }
 /******** FIN FORMULARIO CONTACTO ************/
+
+
+/******* INICIO FORMULARIO LOGIN ****************/
+
+function validarCamposLogin(usuario, password){
+    usuario = document.getElementById(usuario);
+    password = document.getElementById(password);
+    if (usuario.value == ""){
+        alert ("El campo Usuario est\u00E1 vac\u00EDo.");
+        usuario.focus();
+        return false;
+    }else{
+        if (password.value == ""){
+            alert ("El campo Contraseña est\u00E1 vac\u00EDo.");
+            password.focus();
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+}
