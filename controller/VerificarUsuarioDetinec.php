@@ -15,16 +15,21 @@
     echo 'es el query '.mysql_result($query,0, "usuario");
     echo 'es el query '.mysql_result($query,0, "password");
    */
-
-
-    
-    include_once '../model/CierraConexionBBDD.php';
+    if ($row = mysql_fetch_array($query)){ 
+         echo 'El usuario existe.';
+    }
+    else
+    {
+        echo 'EL usuario no existe!';
+    }
+    /*
     if((mysql_result($query,0, "usuario") == $usuario) && (mysql_result($query,0, "password") == $password)){
         echo 'El usuario existe.';
     }else{
         echo 'EL usuario no existe!';
     }
-    
+    */
+    include_once '../model/CierraConexionBBDD.php';
     mysql_free_result($query);
 ?>
 
