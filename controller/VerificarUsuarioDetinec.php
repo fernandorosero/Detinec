@@ -1,3 +1,5 @@
+<!-- JavaScript -->
+<script type="text/javascript" src="//localhost/Detinec/view/js/util.js"></script> 
 <?php
     $db_name="detinec";
 
@@ -17,6 +19,13 @@
    */
     if ($row = mysql_fetch_array($query)){ 
          echo 'El usuario existe.';
+         
+            echo"<body onLoad='javascript:enviarForm();'>";
+                echo"<form name='loginSend' action='../index.php' method='post'>";
+                    echo"<input type='hidden' name='usuario' value='$usuario'/> ";
+                echo"</form>";
+            echo"</body>";    
+         
     }
     else
     {

@@ -134,3 +134,7 @@ function validarCamposLogin(usuario, password){
         }
     }
 }
+function enviarForm(){
+    alert("Entra");
+    document.loginSend.submit();
+}
