@@ -17,4 +17,12 @@
     {
         echo 'NO SE HA PODIDO CREAR LA TABLA. ';
     }
+    
+    $crear_tabla = @mysql_db_query($db_name, $tabla_usuarios, $conexion_crearModelo) or die(mysql_error());
+    if($crear_tabla){
+        echo 'La tabla usuarios se ha creado!. ';
+    }else
+    {
+        echo 'NO SE HA PODIDO CREAR LA TABLA';
+    }
 ?>
