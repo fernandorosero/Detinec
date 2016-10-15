@@ -1,6 +1,7 @@
 <?php
     session_start();
     session_destroy();
-    header("localtion:../index.php");
+    header("Location: http://localhost/Detinec");
+    exit;
 ?>
 

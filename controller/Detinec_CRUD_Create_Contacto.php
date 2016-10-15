@@ -3,6 +3,7 @@
     $telefono = $_POST['telefono'];
     $email = $_POST['email'];
     $comentario = $_POST['comentario'];
+    
     include_once '../model/AbreConexionBBDD.php';
     $resultado_deti = $nombre;
 

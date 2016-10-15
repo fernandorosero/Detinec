@@ -73,7 +73,7 @@ function crearContacto(nombre, telefono, email, comentario){
 
 /******** INICIO FORMULARIO CONTACTO ************/
 
-function validarCampos(nombre, telefono, email, comentario){
+function validarCamposFormularioContacto(nombre, telefono, email, comentario){
     nombre = document.getElementById(nombre);
     telefono = document.getElementById(telefono);
     email = document.getElementById(email);

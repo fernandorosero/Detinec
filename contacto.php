@@ -17,7 +17,8 @@
     <div id="formulario">
         <h3>Formulario de contacto</h3>
         <form action="javascript:crearContacto($('#nombre').val(), $('#telefono').val(), $('#email').val(), $('#comentario').val());"
-              onsubmit="return ValidarCampos('nombre', 'telefono', 'email', 'comentario')">
+              onsubmit="return validarCamposFormularioContacto('nombre', 'telefono', 'email', 'comentario')" 
+              method="POST">
             <label>Nombre:</label>
             <input type="text" maxlength="50" id="nombre" />
             <label>Tel&eacute;fono:</label>
