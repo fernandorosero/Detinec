@@ -41,6 +41,19 @@ header div a:hover{
  background: #30a0ca;
     box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.2)
 }
+#cerrarSesion1, #cerrarSesion2{
+    background-color: #ec6969;
+    margin-right: -278px;
+}
+#cerrarSesion2{
+
+    margin-right: -192px;
+}
+
+#bienvenido1, #bienvenido2{
+    float: right;
+    margin-top: 46px;
+}
 /************** FIN HEADER*******************/
 
 /************** INICIO NAV *******************/
@@ -179,7 +192,17 @@ footer div ul li span{
     text-decoration: none;
     color: #1bb7aa;
 }
-
+#usuarioErroneo{
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 12px 20px 16px 20px;
+    text-align: justify;
+    border: 1px solid #d8b6c7;
+    color: #666;
+    background-color: #fceaea;
+    width: 36%;
+    margin-top: 20px;
+}
 /*************** FIN LOGGIN **********/
 
 

@@ -135,6 +135,11 @@ function validarCamposLogin(usuario, password){
     }
 }
 function enviarForm(){
-    alert("Entra");
     document.loginSend.submit();
+}
+function volverLogin(){
+    document.loginreturn.submit();
+}
+function volverIndex(){
+    document.returnIndex.submit();
 }

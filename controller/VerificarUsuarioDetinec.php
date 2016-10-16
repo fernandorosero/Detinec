@@ -1,11 +1,11 @@
 <!-- JavaScript -->
 <script type="text/javascript" src="//localhost/Detinec/view/js/util.js"></script> 
 <?php
-    $db_name="detinec";
 
-    $usuario = $_POST['usuario'];
+    $errorUsuario ="";
+    $db_name="detinec";
+    $usuario = filter_input(INPUT_POST, 'usuario');
     $password = $_POST['password'];
-    echo 'usuario;'.$usuario.' password:'.$password;
     include_once '../model/AbreConexionBBDD.php';
     $query_verify_user = "select * from usuarios "
             . "where (usuario='$usuario' && "
@@ -18,8 +18,6 @@
     echo 'es el query '.mysql_result($query,0, "password");
    */
     if ($row = mysql_fetch_array($query)){ 
-         echo 'El usuario existe.';
-         
             echo"<body onLoad='javascript:enviarForm();'>";
                 echo"<form name='loginSend' action='../index.php' method='post'>";
                     echo"<input type='hidden' name='usuario' value='$usuario'/> ";
@@ -29,6 +27,13 @@
     }
     else
     {
+        $errorUsuario = 300;
+        echo"<body onLoad='javascript:volverLogin();'>";
+                echo"<form name='loginreturn' action='../login.php' method='post'>";
+                    echo"<input type='hidden' name='errorusuario' value='$errorUsuario'/> ";
+                    echo"<input type='hidden' name='usuario' value='$usuario'/> ";
+                echo"</form>";
+            echo"</body>";
         echo 'EL usuario no existe!';
     }
     /*

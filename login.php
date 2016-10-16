@@ -1,10 +1,22 @@
 <?php
     include_once 'init.php';
     include_once './controller/InicioSessionAdministrador.php';
+    $usuario = filter_input(INPUT_POST, 'usuario');
+    $errorUsuario = filter_input(INPUT_POST, 'errorusuario');
+    
+    if($errorUsuario == 300){
+        echo '<p id="usuarioErroneo">El usuario '.$usuario.' no existe, verifique sus datos</p>';
+    }
+    
     if (isset($_SESSION['usuario'])){
         echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
         echo '<p><a href="controller/FinSessionAdministrador.php">Cerrar sesion</a></p>';
+        echo"<body onLoad='javascript:volverIndex();'>";
+            echo"<form name='returnIndex' action='index.php'>";
+            echo"</form>";
+        echo"</body>"; 
     }
+    else{
 ?>
 
 <div id="login"><!--
@@ -16,7 +28,9 @@
               onsubmit="return validarCamposLogin('usuario', 'password')" 
               method="POST">
             <label>Usuario:</label>
-            <input type="text" id="usuario" name="usuario" maxlength="24"/>
+            <input type="text" id="usuario" name="usuario" maxlength="24" 
+                   value="<?php echo $usuario;?>"
+                   />
             <label>Contrase&ntilde;a:</label>
             <input type="password" id="password" name="password" maxlength="24"/>
             <button type="submit">Entrar</button>
@@ -26,3 +40,6 @@
         <a href="http://localhost/Detinec">&NestedLessLess; Volver</a>
     </div>
 </div>
+<?php
+    }
+    ?>

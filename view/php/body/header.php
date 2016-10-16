@@ -5,12 +5,15 @@
         include_once './controller/InicioSessionAdministrador.php';
         if(isset($_POST['usuario'])){
             $_SESSION['usuario'] = $_POST['usuario'];
-            echo "Bienvenido! Has iniciado sesion: ".$_POST['usuario'];
-            echo '<a href="../../../Detinec/controller/FinSessionAdministrador.php">Cerrar sesion</a>';
+            echo "<span id='bienvenido1'>Bienvenido! Has iniciado sesion: ".$_POST['usuario']."</span>";
+            echo '<a id="cerrarSesion1" href="../../../Detinec/controller/FinSessionAdministrador.php">'
+                . 'Cerrar Sesion</a>';
         }else{
             if(isset($_SESSION['usuario'])){
-                echo "Has iniciado Sesion: ".$_SESSION['usuario'];
-                echo '<a href="../../../Detinec/controller/FinSessionAdministrador.php">Cerrar sesion</a>';
+                echo "<span id='bienvenido2'>Has iniciado Sesion: ".$_SESSION['usuario']."</span>";
+                
+                echo '<a id="cerrarSesion2" href="../../../Detinec/controller/FinSessionAdministrador.php">'
+                . 'Cerrar Sesion</a>';
             }else{
                 echo'<a href="login.php">Login</a>';
             }
