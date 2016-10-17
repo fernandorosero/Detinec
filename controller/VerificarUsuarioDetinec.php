@@ -34,7 +34,7 @@
                     echo"<input type='hidden' name='usuario' value='$usuario'/> ";
                 echo"</form>";
             echo"</body>";
-        echo 'EL usuario no existe!';
+        /*echo 'EL usuario no existe!';*/
     }
     /*
     if((mysql_result($query,0, "usuario") == $usuario) && (mysql_result($query,0, "password") == $password)){
