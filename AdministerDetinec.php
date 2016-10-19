@@ -14,18 +14,9 @@
     <div id="panelControl">
         <?php
         include './init.php';
-        ?>
-        <header>
-        <?php
         include_once './view/php/body/header.php';
-        ?>
-            </header>
-        <nav>
-        <?php
         include_once './view/php/body/nav.php';
         ?>
-        </nav>
-        
     </div>
 
 <?php

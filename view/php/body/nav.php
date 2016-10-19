@@ -2,6 +2,7 @@
     $url_Contacto = "<li><a href='contacto.php'>Contacto</a></li>";
     $url_Adminstracion = "<li><a href='AdministerDetinec.php'>Administraci&oacute;n</a></li>";
 ?>
+<nav>
     <div>
         <ul>
             <li><a href="index.php">Inicio</a></li>
@@ -20,4 +21,4 @@
             ?>
         </ul>
     </div>
-
+</nav>

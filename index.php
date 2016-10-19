@@ -14,28 +14,12 @@ and open the template in the editor.
         
     </head>
     <body>
-        <header>
-            <?php
-                include_once './view/php/body/header.php';
-            ?>
-        </header>
+        <?php
+            include_once './view/php/body/header.php';
+            include_once './view/php/body/nav.php';
+            include_once './view/php/body/section.php';
+            include_once './view/php/body/footer.php';
+        ?>
         
-        <nav>
-            <?php 
-                include_once './view/php/body/nav.php';
-            ?>
-        </nav>
-        
-        <section>
-            <?php
-                include_once './view/php/body/section.php';
-            ?>
-        </section>
-        
-        <footer>
-            <?php
-                include_once './view/php/body/footer.php';
-            ?>
-        </footer>
     </body>
 </html>

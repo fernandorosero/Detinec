@@ -1,5 +1,22 @@
 <?php
     include_once 'init.php';
+    include_once './controller/InicioSessionAdministrador.php';
+    $usuario = filter_input(INPUT_POST, 'usuario');
+    $errorUsuario = filter_input(INPUT_POST, 'errorusuario');
+    
+    if($errorUsuario == 300){
+        echo '<p id="usuarioErroneo">El usuario '.$usuario.' no existe, verifique sus datos</p>';
+    }
+    
+    if (isset($_SESSION['usuario'])){
+        echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
+        echo '<p><a href="controller/FinSessionAdministrador.php">Cerrar sesion</a></p>';
+        echo"<body onLoad='javascript:volverIndex();'>";
+            echo"<form name='returnIndex' action='index.php'>";
+            echo"</form>";
+        echo"</body>"; 
+    }
+    else{
 ?>
 <header>
     <?php
@@ -35,8 +52,12 @@
         <span id="resultado"></span>
     </div>
 </div>
-<footer>
+
     <?php
         include_once './view/php/body/footer.php';
     ?>
-</footer>
+
+
+<?php
+    }
+?>

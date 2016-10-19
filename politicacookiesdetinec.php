@@ -2,11 +2,9 @@
     include_once './init.php';
 ?>
 <body>
-<header>
     <?php
     include_once './view/php/body/header.php';
     ?>
-</header>
 <div id="politicaCookiesDetinec">
     <h3>Pol&iacute;tica de cookies</h3>
     <p>Los website Detinec utilizan cookies, bien propias o bien de terceros, 
@@ -42,9 +40,7 @@
         <a href="http://localhost/Detinec">&NestedLessLess; Volver al inicio</a>
     </div>
 </div>
-<footer>
-    <?php
-            include_once './view/php/body/footer.php';
-    ?>
-</footer>
+<?php
+    include_once './view/php/body/footer.php';
+?>
 </body>
