@@ -1,6 +1,7 @@
 <?php
 
 ?>
+<footer>
     <div>
         <p>
             &copy;Detinec 2016
@@ -21,3 +22,4 @@
         <script type="text/javascript" src="//localhost/Detinec/view/js/util.js"></script> 
         <script type="text/javascript" src="//localhost/Detinec/view/js/jquery-3.1.1.js"></script> 
     </div>
+</footer>
