@@ -10,15 +10,14 @@
         /*echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
         echo '<p><a href="controller/FinSessionAdministrador.php">Cerrar sesion</a></p>';*/
 ?>
-    <h3>CODIGO PANEL DE CONTROL</h3>
+
     <div id="panelControl">
         <?php
         include './init.php';
         include_once './view/php/body/header.php';
-        include_once './view/php/body/nav.php';
+        include_once './view/ContactosDetinec.php';
         ?>
     </div>
-
 <?php
     }
     else{

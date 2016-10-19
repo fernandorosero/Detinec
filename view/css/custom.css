@@ -314,7 +314,7 @@ footer div ul li span{
 
 /*************** INICIO POLITICA COOKIES **********/
 #politicaCookiesDetinec{
- border: 1px solid #c5e8e5;
+    border: 1px solid #c5e8e5;
     padding: 0px 15px 15px;
     border-radius: 6px;
     margin: 0 auto;
@@ -329,3 +329,15 @@ footer div ul li span{
     color: #1bb7aa;
 }
 /*************** FIN POLITICA COOKIES **********/
+
+/************** INICIO DASHBOARD DETINEC *************/
+#panelControl{
+}
+#panelControl #contactos table{
+    width: 100%;
+    margin-top: 30px;
+}
+#panelControl #contactos table th{
+    text-align: center;
+}
+/************** FIN DASHBOARD DETINEC *************/
