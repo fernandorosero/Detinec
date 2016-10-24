@@ -334,10 +334,31 @@ footer div ul li span{
 #panelControl{
 }
 #panelControl #contactos table{
-    width: 100%;
     margin-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 11px;
 }
 #panelControl #contactos table th{
     text-align: center;
+    background: #149188;/*#0079C1;*/
+    color: #ffffff;
+}
+#panelControl #contactos table td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+}
+#panelControl #contactos table tr:nth-child(even){
+    background-color:  #dcf1ef;/*#E5F6FD;*/
+}
+#panelControl #contactos table td{
+    border: none;
+}
+#panelControl #contactos table tr{
+   background-color:  #ffffff;
 }
 /************** FIN DASHBOARD DETINEC *************/
