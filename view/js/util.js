@@ -141,8 +141,13 @@ function volverLogin(){
     document.loginreturn.submit();
 }
 function volverIndex(){
+    alert("entra");
     document.returnIndex.submit();
 }
 function borrarContacto(){
     document.deleteContacto.submit();
+}
+function volverAdministerDetinec(){
+    alert("entra");
+    document.returnAdminister.submit();
 }
