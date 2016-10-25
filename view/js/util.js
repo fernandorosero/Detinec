@@ -143,3 +143,6 @@ function volverLogin(){
 function volverIndex(){
     document.returnIndex.submit();
 }
+function borrarContacto(){
+    document.deleteContacto.submit();
+}
