@@ -141,7 +141,6 @@ function volverIndex(){
     document.returnIndex.submit();
 }
 function verificarBorrado(){
-    alert("entra");
     var pregunta = confirm("Seguro desea borrar?");
     if (pregunta){
         return true;
