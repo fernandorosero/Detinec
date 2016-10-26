@@ -5,7 +5,8 @@
      while($row = mysql_fetch_row($resultado))
      {
         echo "<tr>\n<td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>$row[4]</td>\n<td>";
-            echo"<form name='deleteContacto$row[0]' action='/Detinec/controller/BorrarContactoDetinec.php' method='post'> ";
+            echo"<form name='deleteContacto$row[0]' action='/Detinec/controller/BorrarContactoDetinec.php' method='post' "
+                    . "onsubmit='return verificarBorrado()' >";
                 echo"<input type='text' name='idContactoDelete' value='".$row[0]."'/>";
                 include '/controller/BotonBorrar.php';
             echo"</form>";
