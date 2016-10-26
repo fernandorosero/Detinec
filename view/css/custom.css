@@ -361,4 +361,11 @@ footer div ul li span{
 #panelControl #contactos table tr{
    background-color:  #ffffff;
 }
+#panelControl #contactos table tr td form button{
+    background-color: #ec6969;
+    color: white;
+    padding: 6px 12px 5px 13px;
+    border-radius: 6px;
+    font-size: 20px;
+}
 /************** FIN DASHBOARD DETINEC *************/
