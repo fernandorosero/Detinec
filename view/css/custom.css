@@ -363,21 +363,21 @@ footer div ul li span{
 }
 #panelControl #contactos table tr td form button{
     background-color: #ec6969;
-    padding: 6px 12px 5px 13px;
+    padding: 5px 5px 5px 5px;
     color: #ffffff;
     border-radius: 4px;
     font-size: 14px;
-    width: 100%;
+    width: 30px;
     border: 0;
     font-weight: bold;
-    height: 37px;
+    height: 30px;
 }
 #panelControl #contactos table tr td form button:hover{
     background-color: #f11111;
     cursor: pointer;
 }
 #panelControl #contactos table tr td #formularioX{
-    width: 40px;
+    width: 30px;
     margin: 0 auto; 
 }
 /************** FIN DASHBOARD DETINEC *************/
